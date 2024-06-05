@@ -1,21 +1,9 @@
-<!-- <!DOCTYPE html>
-<html lang="ko">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>자바스크립트 뿌시기</title>
-    <script src="./js/04.nullish.js"></script>
-  </head>
-  <body></body>
-</html> -->
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Font Size Control</title>
-    <script defer src="./js/05.function.js"></script>
     <style>
       #myText {
         font-size: 16px;
@@ -26,5 +14,24 @@
     <h1 id="myText">Hello, World!</h1>
     <button onclick="increaseFontSize('myText', 2)">Increase Font Size</button>
     <button onclick="decreaseFontSize('myText', 2)">Decrease Font Size</button>
+    <script>
+      function increaseFontSize(elementId, increment) {
+        const element = document.getElementById(elementId);
+        if (element) {
+          const style = window.getComputedStyle(element);
+          const currentFontSize = parseFloat(style.fontSize);
+          element.style.fontSize = currentFontSize + increment + "px";
+        }
+      }
+
+      function decreaseFontSize(elementId, decrement) {
+        const element = document.getElementById(elementId);
+        if (element) {
+          const style = window.getComputedStyle(element);
+          const currentFontSize = parseFloat(style.fontSize);
+          element.style.fontSize = currentFontSize - decrement + "px";
+        }
+      }
+    </script>
   </body>
 </html>
