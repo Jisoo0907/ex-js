@@ -1,20 +1,25 @@
-/* increaseFontSize(elementId: string, increment: number): void
-elementId는 HTML 요소의 ID 문자열입니다.
-increment는 양수인 정수로, 폰트 크기를 증가시킬 값입니다.
-해당 요소의 폰트 크기를 increment만큼 증가시킵니다.
-decreaseFontSize(elementId: string, decrement: number): void
-elementId는 HTML 요소의 ID 문자열입니다.
-decrement는 양수인 정수로, 폰트 크기를 감소시킬 값입니다.
-해당 요소의 폰트 크기를 decrement만큼 감소시킵니다. */
-
-function increaseFontSize(elementId, increment) {
-  // 양수인 정수로, 폰트 크기를 증가
-  elementId = document.querySelector(elementId);
-  elementId.style["fontSize"] += increment;
+/* -------------------------------------------------------------------------- */
+/*                                   함수 표현식                               */
+/* -------------------------------------------------------------------------- */
+/* function ask(question, yes, no) {
+  if (confirm(question)) yes();
+  else no();
 }
 
-function decreaseFontSize(elementId, decrement) {
-  // 해당 요소의 폰트 크기를 decrement만큼 감소
-  elementId = document.querySelector(elementId);
-  elementId.style["fontSize"] -= decrement;
+function showOk() {
+  alert("동의하셨습니다.");
 }
+
+function showCancel() {
+  alert("취소 버튼을 누르셨습니다.");
+}
+
+// 사용법: 함수 showOk와 showCancel가 ask 함수의 인수로 전달됨
+ask("동의하십니까?", showOk, showCancel);
+ */
+
+const sum = [1, 2, 3, 4, 5].reduce((accumulate, currentValue) => {
+  return (accumulate += currentValue);
+});
+
+console.log(sum);
