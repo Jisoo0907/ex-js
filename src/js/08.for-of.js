@@ -95,5 +95,48 @@ const values = Object.values(arrayLike);
 const entries = Object.entries(arrayLike);
 
 for (let keyValue of entries) {
-  console.table(keyValue);
+  //console.table(keyValue);
 }
+
+// function checkAge(age) {
+//   if (age > 18) {
+//     return true;
+//   } else {
+//     return confirm("보호자의 동의를 받으셨나요?");
+//   }
+// }
+/* 
+물음표 연산자 ?를 사용하여 본문을 작성
+OR 연산자 ||를 사용하여 본문을 작성 */
+// function checkAge(age) {
+//   return age > 18 ? true : confirm("보호자의 동의를 받으셨나요?");
+// }
+
+// console.log(checkAge(18));
+
+// function checkAge(age) {
+//   return age > 18 || confirm("보호자의 동의를 받으셨나요?");
+// }
+// checkAge(18);
+
+// 작은 값 반환 함수
+function min(num1, num2) {
+  return num1 > num2 ? num2 : num1;
+}
+
+// console.log(min(2, 5)); //== 2;
+// console.log(min(3, -1)); //== -1;
+// console.log(min(1, 1)); //== 1;
+
+// x의 n제곱 반환
+function pow(x, n) {
+  let result = x;
+  for (let i = 1; i < n; i++) {
+    result *= x;
+  }
+  return result;
+}
+
+console.log(pow(3, 2)); // = 3 * 3 = 9
+console.log(pow(3, 3)); // = 3 * 3 * 3 = 27
+console.log(pow(1, 100)); // = 1 * 1 * ...* 1 = 1
