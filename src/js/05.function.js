@@ -78,3 +78,24 @@ console.log(...a);
 };
 
 console.log(...b);  객체는 iterable[Symbol.iterator]가 아님 */
+
+const user = {
+  name: "이지수",
+  sayHi: function () {
+    console.log(this);
+  },
+  sayHi2: () => {
+    console.log(this);
+  },
+};
+
+/* 텍스트 반복 해주는 함수 */
+let repeat = (text, repeatCount) => {
+  let result = "";
+
+  for (let i = 0; i < repeatCount; i++) {
+    result += text;
+  }
+};
+
+repeat("텍스트", 3);
