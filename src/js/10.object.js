@@ -161,3 +161,12 @@ const data = {
 
 const person = createUserObject(data);
 console.log(person);
+
+function createUser({ name: n, age: a, gender: g, job = "홈 프로텍터" }) {
+  return {
+    name,
+    age,
+    gender,
+    job,
+  };
+}
