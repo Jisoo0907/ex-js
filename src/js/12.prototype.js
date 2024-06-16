@@ -6,7 +6,7 @@
 
 // 여러가지 동물들을 키우는 게임 : 고양이,강아지,호랑이,사자,늑대,여우
 
-const animal = {
+/* const animal = {
   legs: 4,
   tail: true,
   stomach: [],
@@ -58,4 +58,42 @@ console.clear();
 
 for (let value in 야생토끼) {
   console.log(Object.keys(야생토끼));
+} */
+
+/* -------------------------------------------------------------------------- */
+/*                            constructor function                            */
+/* -------------------------------------------------------------------------- */
+function Animal() {
+  this.legs = 4;
+  this.tail = true;
+  this.stomach = [];
+  this.getEat = function () {
+    return this.stomach;
+  };
+  this.setEat = function (food) {
+    this.stomach.push(food);
+  };
 }
+
+function Rabbit(name) {
+  Animal.call(this);
+  this.name = name;
+  this.pattern = "화이트";
+  this.hunt = function (target) {
+    return `${target}에게 조용히 접근한다.`;
+  };
+}
+
+const 야생토끼 = new Rabbit("토심이");
+
+function User(name, address, age) {
+  this.name = name;
+  this.address = address;
+  this.age = age;
+  this.sayHi = function () {
+    return `난 ${this.name}이야.`;
+  };
+}
+const person1 = new User("이", "서울시", 24);
+
+console.log(person1);
