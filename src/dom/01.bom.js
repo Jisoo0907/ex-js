@@ -28,9 +28,9 @@ const { href, protocol, host, port, search, hash, replace, reload } = location;
 
 const urlParams = new URLSearchParams(location.search);
 
-// for (const [key, value] of urlParams) {
-//   console.log(`${key}:${value}`);
-// }
+for (const [key, value] of urlParams) {
+  console.log(`${key}:${value}`);
+}
 
 /* Navigator 객체 -------------------------------------------------------- */
 
