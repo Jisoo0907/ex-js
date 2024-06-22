@@ -2,6 +2,8 @@
 /* DOM traversal                     */
 /* --------------------------------- */
 
+/* global getNode */
+
 /* 모든 노드에서 사용 */
 // - parentNode
 const first = document.body.querySelector(".first");
@@ -77,9 +79,10 @@ const search = document.getElementById("search");
 // - querySelectorAll
 
 // - closest
+const firstSpan = document.querySelector(".first");
+const closeFirst = firstSpan.closest("h1");
 
 /* 문서 대상 확인 */
 // - matches
-console.log(section.matches(getNode("#visual-section")));
 
 // - contains
