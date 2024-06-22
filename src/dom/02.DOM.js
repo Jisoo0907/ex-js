@@ -1,47 +1,85 @@
-const ul = document.body.querySelector("ul");
+/* --------------------------------- */
+/* DOM traversal                     */
+/* --------------------------------- */
 
-// console.log(ul.lastChild);
+/* 모든 노드에서 사용 */
+// - parentNode
+const first = document.body.querySelector(".first");
+// console.log(first.parentNode);
 
-for (let i = 0; i < document.body.childNodes.length; i++) {
-  // console.log(document.body.childNodes[i]);
-}
+// - childNodes
+/* const list = document.body.querySelector(".list").childNodes;
+list.forEach((elem) => {
+  // console.log(elem);
+}); */
 
+// - firstChild
+// console.log(document.body.querySelector(".list").firstChild);
+
+// - lastChild
+//console.log(document.body.querySelector(".list").lastChild);
+
+// - previousSibling
+//console.log(document.body.querySelector(".list").previousSibling);
+
+// - nextSibling
+console.log(first.nextElementSibling);
+
+/* 요소 노드에서만 사용 가능 */
+// - parentElement
 console.clear();
+console.log(first.parentElement);
 
-for (let node of document.body.childNodes) {
-  console.log(`childNodes: ${node}`);
-}
+// - children
+console.log(document.body.querySelector("h1").children);
 
-// console.log(document.body.parentNode === document.documentElement);
+// - firstElementChild
+// - lastElementChild
+// - previousElementSibling
+// - nextElementSibling
+console.clear;
+// 1. id가 visual-section인 section 태그 요소
+const section = document.querySelector("#visual-section");
 
-let element = document.querySelector("li");
-// console.log(element.parentNode);
-// console.log(element.lastElementChild);
+// 2. class가 list인 ul 태그 요소
+const list = section.querySelector(".list");
 
-for (let node of document.body.children) {
-  console.log(`children: ${node}`);
-}
+// 3. list 요소 안에 about li 태그 요소
+const about = list.querySelector("li:nth-child(2)");
+const aboutLi = [...list.children].find((i) => i.textContent === "about");
 
-console.clear();
+// console.log(list.children[1]);
+// console.log(section.querySelector(".list > li:nth-child(2)"));
 
-// const li = document.querySelector("ul > li");
-// console.log(li);
+// 4. name 속성이 search-box 인 form 태그 요소
+const form = document.querySelector('[name="search-box"]');
 
-const firstLi = document.querySelectorAll("ul")[0];
-console.log(firstLi);
+// 5. form 요소 안에 있는 모든 자식 요소
+const children = form.children;
 
-console.clear();
+// 6. form 요소 안에 있는 input 태그 요소
+const input = form.lastElementChild;
 
-for (let elem of document.body.children) {
-  if (elem.matches("ul")) console.log(elem);
-}
+/* -------------------------------------------------------------------------- */
+/*                                   함수 만들기                               */
+/* -------------------------------------------------------------------------- */
 
-const li = document.querySelector("li");
-li.closest("ul");
+/* 문서 대상 찾기 */
+// - getElementById
+const search = document.getElementById("search");
 
-// document.body.innerHTML = "메롱";
-// document.body.innerHTML = "<b>지수"; 닫는 태그 알아서 넣어줌
-console.clear();
+// - getElementsByTagName
 
-const textLi = document.body.querySelector("li");
-console.log(textLi.textContent);
+// - getElementsByClassName
+
+// - querySelector
+
+// - querySelectorAll
+
+// - closest
+
+/* 문서 대상 확인 */
+// - matches
+console.log(section.matches(getNode("#visual-section")));
+
+// - contains
