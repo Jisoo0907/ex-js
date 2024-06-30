@@ -1,100 +1,37 @@
-/* ---------------------------------- 일반 함수 --------------------------------- */
-
-function 함수1() {
-  console.log("함수 1 실행");
-  setTimeout(() => {
-    // 10초뒤에 실행됨
-    console.log("함수 1 완료");
-  }, 1000);
+function delay(callback, timeout = 1000) {
+  setTimeout(callback, timeout);
 }
 
-function 함수2() {
-  console.log("함수 2 실행");
-  setTimeout(() => {
-    // 10초뒤에 실행됨
-    console.log("함수 2 완료");
-  }, 1000);
-}
+const first = document.querySelector(".first");
+const second = document.querySelector(".second");
 
-function 함수3() {
-  console.log("함수 3 실행");
-  console.log("함수 3 완료");
-}
+// delay(() => {
+//   first.style.top = "-100px";
+//   second.style.top = "100px";
+//   delay(() => {
+//     first.style.transform = "rotate(360deg)";
+//     second.style.transform = "rotate(-360deg)";
+//     delay(() => {
+//       first.style.top = "0px";
+//       second.style.top = "0px";
+//     });
+//   });
+// });
 
-함수1();
-함수2();
-함수3();
+const shouldRejected = false;
 
-/* ---------------------------------- 콜백 함수 --------------------------------- */
-
-function 함수1(callback) {
-  console.log("함수 1 실행");
-  setTimeout(() => {
-    // 10초뒤에 실행됨
-    console.log("함수 1 완료");
-    callback();
-  }, 1000);
-}
-
-function 함수2(callback) {
-  console.log("함수 2 실행");
-  setTimeout(() => {
-    // 10초뒤에 실행됨
-    console.log("함수 2 완료");
-    callback();
-  }, 1000);
-}
-
-function 함수3() {
-  console.log("함수 3 실행");
-  console.log("함수 3 완료");
-}
-
-함수1(function () {
-  함수2(function () {
-    함수3();
-  });
+const p = new Promise((resolve, reject) => {
+  if (!shouldRejected) {
+    resolve("성공!");
+  } else {
+    reject("실패!");
+  }
 });
 
-/* ---------------------------------- 프로미스 ---------------------------------- */
-
-function 함수1() {
-  console.log("함수 1 실행");
-
-  const promise = new Promise(function (resolve, reject) {
-    setTimeout(() => {
-      console.log("함수 1 완료");
-      resolve();
-    }, 1000);
+function delayP() {
+  return new Promise((resolve, reject) => {
+    resolve("성공");
   });
-  return promise;
 }
 
-function 함수2() {
-  console.log("함수 2 실행");
-
-  const promise = new Promise(function (resolve, reject) {
-    setTimeout(() => {
-      // 1초뒤에 실행됨
-      console.log("함수 2 완료");
-      resolve();
-
-      // reject() reject은 어떠한이유로 실패했을떄 호출하면됨
-    }, 1000);
-  });
-
-  return promise;
-}
-
-function 함수3() {
-  console.log("함수 3 실행");
-  console.log("함수 3 완료");
-}
-
-함수1()
-  .then(function () {
-    return 함수2();
-  })
-  .then(function () {
-    함수3();
-  });
+delayP().then;
