@@ -18,20 +18,37 @@ const second = document.querySelector(".second");
 //   });
 // });
 
-const shouldRejected = false;
+const defaultOptions = {
+  shouldRejected: false,
+  data: "성공",
+  errorMessage: "알 수 없는 오류",
+  timeout: 1000,
+};
 
-const p = new Promise((resolve, reject) => {
-  if (!shouldRejected) {
-    resolve("성공!");
-  } else {
-    reject("실패!");
+function delayP(options) {
+  let config = { ...defaultOptions };
+
+  if (typeof options === "string") {
+    config.timeout = options;
   }
-});
 
-function delayP() {
+  if (typeof options === "object") {
+    config = { ...defaultOptions, ...options };
+  }
+  console.log(config);
+
+  const { shouldRejected, data, errorMessage, timeout } = config;
+  // config의 속성들을 개별 변수에 할당 (구조 분해 할당)
+
   return new Promise((resolve, reject) => {
-    resolve("성공");
+    setTimeout(() => {
+      if (!shouldRejected) {
+        resolve(data);
+      } else {
+        reject({ message: errorMessage });
+      }
+    }, timeout);
   });
 }
 
-delayP().then;
+delayP(1000);
