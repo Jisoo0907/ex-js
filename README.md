@@ -39,15 +39,15 @@
 [Enter EUID](https://enter-euid.netlify.app/)
 <br/>
 
-<span style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Link</span>
+<h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Link</h2>
 
 [wiki 방문](https://github.com/FRONTENDSCHOOL10/coding13-euid/wiki)
 [노션 방문](https://www.notion.so/13-41c83e44c06c4f1787cad96ca3d1a40b)
 <br/>
 
 <h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> DB Model</h2>
+<img src="/public/db.png" style="width: 500px">
 
-![db](/public/db.png){width=500px}
 <br/>
 
 <h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project Feature</h2>
