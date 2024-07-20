@@ -10,7 +10,7 @@
  <h5 style="text-align:center; color: #373F67">장주원 김가현 용애경 이지수</h5>
  <br/>
 
-<h2 style="color: #5A85EE">중고거래 플랫폼 Enter EUID(엔터 이듬)</h2>
+<h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> 중고거래 플랫폼 Enter EUID(엔터 이듬)</h2>
 
 - 멋쟁이 사자처럼 FE 10기 - 13조: 코딩을 일삼조 :computer:
 - 개발 기간: 2024.07.05 ~ 2024.07.19
