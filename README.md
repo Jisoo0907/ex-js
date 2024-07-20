@@ -15,6 +15,7 @@
 - 멋쟁이 사자처럼 FE 10기 - 13조: 코딩을 일삼조 :computer:
 - 개발 기간: 2024.07.05 ~ 2024.07.19
   <br/>
+  
 
 <h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project Goal</h2>
 
@@ -33,11 +34,13 @@
   - 수업시간에 놓친 부분, 이해가 안 가던 부분을 이번 기회로 확실히 짚고 넘어가기.
   - ..... 해내기... 밤새서라도 해내기.... 탈주 금지,,,
     <br/>
+    
 
 <h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project URL</h2>
 
 [Enter EUID](https://enter-euid.netlify.app/)
 <br/>
+
 
 <h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Link</h2>
 
