@@ -34,31 +34,23 @@
   - ..... 해내기... 밤새서라도 해내기.... 탈주 금지,,,
     <br/>
 
-![slime](/public/slime.webp){width=35px}
-
-<h2 style="color:#5A85EE">Project URL</h2>
+<h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project URL</h2>
 
 [Enter EUID](https://enter-euid.netlify.app/)
 <br/>
 
-![slime](/public/slime.webp){width=35px}
-
-<span style="color: #5A85EE">Link</span>
+<span style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Link</span>
 
 [wiki 방문](https://github.com/FRONTENDSCHOOL10/coding13-euid/wiki)
 [노션 방문](https://www.notion.so/13-41c83e44c06c4f1787cad96ca3d1a40b)
 <br/>
 
-![slime](/public/slime.webp){width=35px}
-
-<h2 style="color:#5A85EE">DB Model</h2>
+<h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> DB Model</h2>
 
 ![db](/public/db.png){width=500px}
 <br/>
 
-![slime](/public/slime.webp){width=35px}
-
-<h2 style="color: #5A85EE">Project Feature
+<h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project Feature</h2>
 
 #### 1. 회원 가입 / 로그인
 
