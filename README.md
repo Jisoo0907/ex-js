@@ -1,11 +1,11 @@
-<!-- ![header](https://capsule-render.vercel.app/api?type=wave&color=373F67) -->
+<!-- ![header](https://capsule-render.vercel.app/api?type=wave&color=373F67)
 
 <br/>
 
 <span style="text-align: center">
   <img src="https://github.com/user-attachments/assets/83a7da13-7696-45d2-976e-0036e0570432" style="width:200px;">
-  
-  
+
+
    <h2>coding13-euid Vanilla Project</h2>
    <h5>장주원 김가현 용애경 이지수</h5>
 </span>
@@ -119,4 +119,4 @@
 - 카메라 아이콘 클릭 시 **사진 업로드** 기능
 - 사진 업로드 시 **미리보기**
 - **제목, 가격, 내용** 입력
-- 작성 완료 시 **서버에 등록**
+- 작성 완료 시 **서버에 등록** -->
