@@ -2,21 +2,22 @@
 
 <br/>
 
-<div style="text-align: center">
-<img src="https://github.com/user-attachments/assets/83a7da13-7696-45d2-976e-0036e0570432" width="200px">
-</div>
+<span style="text-align: center">
+  <img src="https://github.com/user-attachments/assets/83a7da13-7696-45d2-976e-0036e0570432" style="width:200px;">
+  
+  
+   <h2 style="color:#373F67">coding13-euid Vanilla Project</h2>
+   <h5 style="color: #373F67">장주원 김가현 용애경 이지수</h5>
+</span>
 
- <h2 style="text-align: center; color:#373F67">coding13-euid Vanilla Project</h2>
- <h5 style="text-align:center; color: #373F67">장주원 김가현 용애경 이지수</h5>
  <br/>
 
 <h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> 중고거래 플랫폼 Enter EUID(엔터 이듬)</h2>
 
 - 멋쟁이 사자처럼 FE 10기 - 13조: 코딩을 일삼조 :computer:
 - 개발 기간: 2024.07.05 ~ 2024.07.19
-  
+
   <br/>
-  
 
 <h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project Goal</h2>
 
@@ -32,18 +33,17 @@
   - 컨벤션 잘 지키기
   - 코드 통일성 고려하기
 - **애경**
+
   - 수업시간에 놓친 부분, 이해가 안 가던 부분을 이번 기회로 확실히 짚고 넘어가기.
   - ..... 해내기... 밤새서라도 해내기.... 탈주 금지,,,
-    
+
     <br/>
-    
 
 <h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project URL</h2>
 
 [Enter EUID](https://enter-euid.netlify.app/)
 
 <br/>
-
 
 <h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Link</h2>
 
