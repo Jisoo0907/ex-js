@@ -10,13 +10,13 @@
  <h5 style="text-align:center; color: #373F67">장주원 김가현 용애경 이지수</h5>
  <br/>
 
-### ![slime](/public/slime.webp){width=35px} <span style="color:#5A85EE">중고거래 플랫폼 Enter EUID(엔터 이듬)</span>
+<h2 style="color:#5A85EE">중고거래 플랫폼 Enter EUID(엔터 이듬)</h2>
 
 - 멋쟁이 사자처럼 FE 10기 - 13조: 코딩을 일삼조 :computer:
 - 개발 기간: 2024.07.05 ~ 2024.07.19
   <br/>
 
-### ![slime](/public/slime.webp){width=35px} <span style="color:#5A85EE">Project Goal</span>
+![slime](/public/slime.webp){width=35px}<h2 style="color:#5A85EE">Project Goal</h2>
 
 - **공동**
   - 시안에 있는 것을 다 하진 못해도 요구사항에 충실하자. 요구사항 만큼은 완벽히!
@@ -34,23 +34,31 @@
   - ..... 해내기... 밤새서라도 해내기.... 탈주 금지,,,
     <br/>
 
-### ![slime](/public/slime.webp){width=35px} <span style="color:#5A85EE">Project URL</span>
+![slime](/public/slime.webp){width=35px}
+
+<h2 style="color:#5A85EE">Project URL</h2>
 
 [Enter EUID](https://enter-euid.netlify.app/)
 <br/>
 
-### ![slime](/public/slime.webp){width=35px} <span style="color: #5A85EE">Link</span>
+![slime](/public/slime.webp){width=35px}
+
+<span style="color: #5A85EE">Link</span>
 
 [wiki 방문](https://github.com/FRONTENDSCHOOL10/coding13-euid/wiki)
 [노션 방문](https://www.notion.so/13-41c83e44c06c4f1787cad96ca3d1a40b)
 <br/>
 
-### ![slime](/public/slime.webp){width=35px} <span style="color:#5A85EE">DB Model</span>
+![slime](/public/slime.webp){width=35px}
+
+<h2 style="color:#5A85EE">DB Model</h2>
 
 ![db](/public/db.png){width=500px}
 <br/>
 
-### ![slime](/public/slime.webp){width=35px} <span style="color: #5A85EE">Project Feature
+![slime](/public/slime.webp){width=35px}
+
+<h2 style="color: #5A85EE">Project Feature
 
 #### 1. 회원 가입 / 로그인
 
@@ -105,7 +113,7 @@
   - 거래 가능/거래완료 선택 시 필터링 후 리렌더링
   - 검색 물품 정렬
 
-#### 5.글쓰기</span>
+#### 5.글쓰기</h2>
 
 [글쓰기 write-post/index.html](/src/pages/write-post/index.html)
 
