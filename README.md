@@ -6,20 +6,20 @@
   <img src="https://github.com/user-attachments/assets/83a7da13-7696-45d2-976e-0036e0570432" style="width:200px;">
   
   
-   <h2 style="color:#373F67">coding13-euid Vanilla Project</h2>
-   <h5 style="color: #373F67">장주원 김가현 용애경 이지수</h5>
+   <h2>coding13-euid Vanilla Project</h2>
+   <h5>장주원 김가현 용애경 이지수</h5>
 </span>
 
  <br/>
 
-<h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> 중고거래 플랫폼 Enter EUID(엔터 이듬)</h2>
+<h2><img src="/public/slime.webp" style="width: 35px"> 중고거래 플랫폼 Enter EUID(엔터 이듬)</h2>
 
 - 멋쟁이 사자처럼 FE 10기 - 13조: 코딩을 일삼조 :computer:
 - 개발 기간: 2024.07.05 ~ 2024.07.19
 
   <br/>
 
-<h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project Goal</h2>
+<h2><img src="/public/slime.webp" style="width: 35px"> Project Goal</h2>
 
 - **공동**
   - 시안에 있는 것을 다 하진 못해도 요구사항에 충실하자. 요구사항 만큼은 완벽히!
@@ -39,25 +39,25 @@
 
     <br/>
 
-<h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project URL</h2>
+<h2><img src="/public/slime.webp" style="width: 35px"> Project URL</h2>
 
 [Enter EUID](https://enter-euid.netlify.app/)
 
 <br/>
 
-<h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Link</h2>
+<h2><img src="/public/slime.webp" style="width: 35px"> Link</h2>
 
 [wiki 방문](https://github.com/FRONTENDSCHOOL10/coding13-euid/wiki)
 [노션 방문](https://www.notion.so/13-41c83e44c06c4f1787cad96ca3d1a40b)
 
 <br/>
 
-<h2 style="color:#5A85EE"><img src="/public/slime.webp" style="width: 35px"> DB Model</h2>
+<h2><img src="/public/slime.webp" style="width: 35px"> DB Model</h2>
 <img src="/public/db.png" style="width: 500px">
 
 <br/>
 
-<h2 style="color: #5A85EE"><img src="/public/slime.webp" style="width: 35px"> Project Feature</h2>
+<h2><img src="/public/slime.webp" style="width: 35px"> Project Feature</h2>
 
 #### 1. 회원 가입 / 로그인
 
