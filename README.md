@@ -105,7 +105,7 @@
   - 거래 가능/거래완료 선택 시 필터링 후 리렌더링
   - 검색 물품 정렬
 
-#### 5.글쓰기</h2>
+#### 5. 글쓰기</h2>
 
 [글쓰기 write-post/index.html](/src/pages/write-post/index.html)
 
