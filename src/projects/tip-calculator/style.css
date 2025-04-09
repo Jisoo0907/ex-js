@@ -1,0 +1,46 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.main {
+  margin: 6.25rem auto;
+  background-color: white;
+  max-width: 37.5rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1.25rem;
+  border-radius: 1.25rem;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  width: 38rem;
+  height: 25rem;
+}
+
+h1 {
+  text-align: center;
+}
+
+label {
+  margin-bottom: 0.3125rem;
+}
+
+input {
+  padding: 0.625rem;
+  margin-bottom: 0.9375rem;
+}
+
+button {
+  color: white;
+  background-color: #4caf50;
+  padding: 0.625rem;
+  border-color: transparent;
+  font-size: 1.125rem;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+.total {
+  font-size: 1.25rem;
+  font-weight: 600;
+}
