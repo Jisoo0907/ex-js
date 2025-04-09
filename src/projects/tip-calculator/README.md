@@ -1,3 +1,27 @@
+# 코드 작성 과정
+
+<br/>
+
+### 초기 코드
+
+```
+const totalCalcBtn = document.querySelector("button");
+const total = document.querySelector(".total");
+
+totalCalcBtn.addEventListener("click", () => {
+  const billInput = Number(document.querySelector("#bill").value);
+  const tipInput = Number(document.querySelector("#tip").value);
+
+  const tip = billInput * (tipInput / 100);
+  total.textContent = tip;
+});
+```
+
+<br/>
+
+### 리팩토링 이후 코드
+
+```
 // 필요한 DOM 요소들을 미리 선택
 const billInput = document.querySelector("#bill");
 const tipInput = document.querySelector("#tip");
@@ -19,3 +43,11 @@ function updateTotal() {
 }
 
 totalCalcBtn.addEventListener("click", updateTotal);
+
+```
+
+### 최종 결과
+
+<br/>
+
+![Image](https://github.com/user-attachments/assets/600c5209-5422-43eb-8178-c7740cb48d49)
