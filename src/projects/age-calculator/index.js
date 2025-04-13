@@ -1,8 +1,7 @@
 const today = new Date();
-
-const year = today.getFullYear();
-const month = ("0" + (today.getMonth() + 1)).slice(-2);
-const day = ("0" + today.getDate()).slice(-2);
+const currentYear = today.getFullYear();
+const currentMonth = today.getMonth() + 1; // 1~12
+const currentDay = today.getDate();
 
 const button = document.querySelector("button");
 const totalAge = document.querySelector(".total-age");
@@ -13,19 +12,15 @@ function AgeCalc(date) {
   const birthMonth = Number(date.value.slice(5, 7));
   const birthDay = Number(date.value.slice(8, 10));
 
-  let age = year - birthYear;
+  let age = currentYear - birthYear;
 
-  if (month > birthMonth || (month === birthMonth && day >= birthDay)) {
-    return age;
-  } else {
+  if (
+    currentMonth < birthMonth ||
+    (currentMonth === birthMonth && currentDay < birthDay)
+  ) {
     age--;
   }
-
-  if (age < 1) {
-    return 0;
-  }
-
-  return age;
+  return age < 1 ? 0 : age;
 }
 
 button.addEventListener("click", () => {
