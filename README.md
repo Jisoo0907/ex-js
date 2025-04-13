@@ -8,3 +8,4 @@
 
 - 2025.04.08 [testimonial-slider](/src/projects/testimonial-slider/)
 - 2025.04.09 [tip-calculator](/src/projects/tip-calculator/)
+- 2025.04.13 [age-calculator](/src/projects/age-calculator/)
