@@ -1,0 +1,84 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+h1 {
+  font-weight: 600;
+  font-size: 2.1875rem;
+  margin-bottom: 0.625rem;
+}
+
+.main {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+}
+
+.title {
+  background-color: #0c2461;
+  color: #fff;
+  text-align: center;
+  padding: 1.125rem;
+}
+
+li {
+  list-style: none;
+  margin: 1.25rem 1.875rem;
+  border-radius: 0.625rem;
+  overflow: hidden;
+  box-shadow: 0px 0px 5px #444;
+}
+
+.recipe-image {
+  width: 100%;
+}
+
+.recipe-title {
+  text-align: center;
+  font-weight: 600;
+  font-size: 1.125rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.125rem;
+}
+
+.recipe-info {
+  color: #777777;
+  margin: 0.9375rem;
+}
+
+.recipe-link {
+  background: #0c2461;
+  color: #fff;
+  display: block;
+  text-align: center;
+  text-decoration: none;
+  padding: 0.625rem;
+  transition: background 0.3s ease;
+}
+
+.recipe-link:hover {
+  background-color: #1e3799;
+}
+
+@media screen and (min-width: 768px) {
+  .recipe-card {
+    display: flex;
+  }
+  .recipe-image {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+  }
+  .recipe-title {
+    font-size: 20px;
+    padding: 10px;
+    min-width: 200px;
+  }
+
+  .recipe-link {
+    min-width: 150px;
+    padding: 10px;
+    height: auto;
+    margin: auto 0;
+    text-align: left;
+  }
+}
