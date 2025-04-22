@@ -168,6 +168,13 @@ async function fetchRecipes() {
 fetchRecipes();
 ```
 
+#### 수정한 부분
+
+- API 호출 부분과 DOM 조작 부분을 별도의 함수로 분리하여 코드의 역할을 분명하게 함.
+- 비동기 함수 사용 - `axios.get`을 `async/await` 구문으로 감쌈.
+- 외부 링크에 `rel="noopener noreferrer"` 속성을 추가하여 보안을 강화함.
+- 이미지에 alt 속성을 넣어 접근성을 향상시킴.
+
 <br/>
 
 ### 최종 결과
