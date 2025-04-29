@@ -1,0 +1,61 @@
+@import url("https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable.min.css");
+
+.body {
+  font-family: "Pretendard Variable", Pretendard, -apple-system,
+    BlinkMacSystemFont, system-ui, Roboto, "Helvetica Neue", "Segoe UI",
+    "Apple SD Gothic Neo", "Noto Sans KR", "Malgun Gothic", "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", sans-serif;
+  height: 100vh;
+}
+
+.website__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  background-color: #fff;
+  width: 100%;
+  top: 0;
+}
+.website__nav-logo {
+  width: 120px;
+}
+.website__nav-list {
+  list-style: none;
+  display: flex;
+  right: 0;
+
+  li {
+    margin-right: 30px;
+  }
+
+  a {
+    text-decoration: none;
+    color: #000;
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+
+  img {
+    width: 38px;
+  }
+}
+.website__body {
+  background-image: url(./img/volta.jpg);
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.website__body-introduce {
+  margin: 0 auto;
+  font-size: 45px;
+  color: #fff;
+  font-style: italic;
+}
+
+.active {
+  background-color: #000;
+  transition: background-color 0.4s;
+}
